@@ -1,0 +1,30 @@
+.i 2
+.o 1
+.p 24
+.s 6
+.r START
+11   START  state3 1
+00   START  state3 1
+01   START  state1 0
+10   START  state1 1
+00  state1  state4 0
+10  state1  state2 0
+01  state1   START 0
+11  state1   START 1
+11  state2  state3 1
+01  state2  state1 1
+10  state2   START 1
+00  state2  state4 1
+00  state3  state5 0
+11  state3   START 0
+10  state3  state5 1
+01  state3  state3 0
+00  state4  state3 1
+10  state4  state4 1
+01  state4  state3 1
+11  state4  state5 1
+00  state5   START 1
+11  state5  state1 0
+01  state5  state4 0
+10  state5  state5 0
+.e
